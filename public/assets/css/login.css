@@ -1,0 +1,87 @@
+/* Styling for the login page */
+header .logo {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-container {
+    display: block;
+    min-height: 100vh;
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    background-color: transparent;
+    text-align: center;
+}
+
+table#tblLogin, table#tblForgotPassword {
+    width: 50%;
+    background: #3976aa;
+    display: inline-table;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.loginbox input[type='text'], .loginbox input[type='password'] {
+    width: 100% !important;
+    width: calc(100% - 20px) !important;
+}
+
+.forgot-password {
+    border: 1px solid #3976aa;
+    border-radius: 2px;
+    background-color: #abd;
+    box-shadow: 0 1px 3px rgba(0,0,0,.16), inset 0 1px 1px #fff;
+    background-image: linear-gradient(bottom, rgba(145,145,145,.32) -89%, rgba(234,234,234,.32) 61%);
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .loginbox {
+        display: block !important;
+    }
+
+    table#tblLogin, table#tblForgotPassword {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    header .logo {
+        width: 100%;
+    }
+
+    footer .col5, footer .col4, footer .col3 {
+        text-align: center;
+    }
+
+    footer .onerow {
+        margin-top: 20px;
+    }
+
+    .footer_div {
+        text-align: center;
+        height: auto !important;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}

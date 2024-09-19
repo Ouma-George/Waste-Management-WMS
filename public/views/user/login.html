@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Global metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environclean Services</title>
+    <meta name="description" content="Environclean Services provides comprehensive waste management and recycling solutions.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/public/assets/css/login.css" type="text/css" />
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="greybg">
+                <div class="onepcssgrid-1000">
+                    <div class="onerow">
+                        <div class="col12">
+                            <div class="logo">
+                                <img src="/public/assets/images/logo.png" alt="logo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+
+        <div class="loginbox">
+            <div class="title">Client Portal Login</div>
+            <table id="tblLogin">
+                <tr>
+                    <td style="width:15%">&nbsp;</td>
+                    <td style="text-align: center; width: 50%">
+                        <p><input name="TextBox_user" type="text" size="32" id="TextBox_user" tabindex="1" placeholder="Email" /></p>
+                        <p><input name="TextBox_pass" type="password" size="32" id="TextBox_pass" tabindex="2" placeholder="Password" /></p>
+                    </td>
+                    <td style="width:15%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width:15%">&nbsp;</td>
+                    <td style="text-align: right;">
+                        <p style="padding-left: 11px;">
+                            <input type="submit" name="btnLogin" value="Log In" onclick="set_page_overlay_opacity('0.4');" id="btnLogin" tabindex="3" class="btn_login" style="width:111px;" />
+                        </p>
+                        <p class="white_links">
+                            <a id="forgotPassword" onclick="document.getElementById('tblLogin').style.display = 'none'; document.getElementById('tblForgotPassword').style.display = 'inline-table'; return false;" href="#" style="margin-top: 10px; margin-left: 40px; position: relative; font-size: xx-small;">Forgot password?</a>
+                        </p>
+                    </td>
+                    <td style="width:15%">&nbsp;</td>
+                </tr>
+            </table>
+
+            <table id="tblForgotPassword" style="display:none">
+                <tr>
+                    <td style="width:15%">&nbsp;</td>
+                    <td style="color:#fff;text-align:center;">Please enter your email below. We will send you a link to reset your password.</td>
+                    <td style="width:15%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width:15%">&nbsp;</td>
+                    <td style="text-align: right; width: 50%">
+                        <p><input id="txtUserName" type="text" placeholder="Email/ Username" /></p>
+                    </td>
+                    <td style="width:15%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width:15%">&nbsp;</td>
+                    <td style="text-align: right;">
+                        <p style="padding-left: 11px;">
+                            <button onclick="sendResetPassword(); return false;" class="forgot-password">Request password change</button>
+                        </p>
+                        <p class="white_links">
+                            <a id="forgotPassword" onclick="document.getElementById('tblLogin').style.display = 'inline-table'; document.getElementById('tblForgotPassword').style.display = 'none'; return false;" href="#" style="margin-top: -10px; margin-left: 40px; position: relative; font-size: xx-small;">Back to Login</a>
+                        </p>
+                    </td>
+                    <td style="width:15%">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <div class="greenbg" style="padding-top: 1px; padding-bottom: 8px;">
+                <div class="onepcssgrid-1000">
+                    <div class="onerow">
+                        <div class="col3">&nbsp;</div>
+                        <div class="col6" style="text-align:center;" align="center">
+                            <img style="vertical-align: top; padding-top: 0px; background-color: darkgreen;" src="/public/assets/images/greybg2.png" />
+                        </div>
+                        <div class="col3 last">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="clearfix" style="height: 1px;"></div>
+            </div>
+
+            <div class="greybg2">
+                <div class="onepcssgrid-1000">
+                    <div class="onerow">
+                        <div class="footer_div" style="text-align: center; height: 15px; padding-bottom: 0px; margin-top: 10px;">
+                            &copy; 2024 Environclean Services, Kenya  |  All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

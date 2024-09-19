@@ -1,0 +1,91 @@
+header .logo {
+    width: 500px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginbox, .registerbox {
+    background-color: transparent;
+    text-align: center;
+}
+
+table#tblLogin, table#tblForgotPassword, table#tblRegister {
+    width: 50%;
+    background: #3976aa;
+    display: inline-table;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.loginbox input[type='text'], .loginbox input[type='password'],
+.registerbox input[type='text'], .registerbox input[type='password'],
+.registerbox input[type='email'] {
+    width: 100% !important;
+    width: calc(100% - 20px) !important;
+}
+
+.forgot-password, .register-button {
+    border: 1px solid #3976aa;
+    border-radius: 2px;
+    background-color: #abd;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 16%), inset 0 1px 1px #fff;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI0OS40NzkxNjY2NjY2NjY3JSIgeTE9IjE1NyUiIHgyPSI0OS40NzkxNjY2NjY2NjY3JSIgeTI9IjYuOTk5OTk5OTk5OTk5OTklIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzkxOTE5MSIgc3RvcC1vcGFjaXR5PSIwLjMyIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIgc3RvcC1vcGFjaXR5PSIwLjMyIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+    background-image: -moz-linear-gradient(bottom, rgba(145,145,145,.32) -89%, rgba(234,234,234,.32) 61%);
+    background-image: -o-linear-gradient(bottom, rgba(145,145,145,.32) -89%, rgba(234,234,234,.32) 61%);
+    background-image: -webkit-linear-gradient(bottom, rgba(145,145,145,.32) -89%, rgba(234,234,234,.32) 61%);
+    background-image: linear-gradient(bottom, rgba(145,145,145,.32) -89%, rgba(234,234,234,.32) 61%);
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .loginbox, .registerbox {
+        display: block !important;
+    }
+
+    table#tblLogin, table#tblForgotPassword, table#tblRegister {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    header .logo {
+        width: 100%;
+    }
+
+    footer .col5, footer .col4, footer .col3 {
+        text-align: center;
+    }
+
+    footer .onerow {
+        margin-top: 20px;
+    }
+
+    .footer_div {
+        text-align: center;
+        height: auto !important;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}

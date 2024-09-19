@@ -1,0 +1,25 @@
+{
+    "extends": [
+      "development"
+    ],
+    "hints": {
+      "compat-api/css": [
+        "default",
+        {
+          "ignore": [
+            "text-decoration-skip-ink",
+            "-webkit-text-size-adjust",
+            "overflow-anchor",
+            "-webkit-overflow-scrolling"
+          ]
+        }
+      ]
+    },
+    "browserslist": [
+      "defaults",
+      "not ie 11",
+      "not and_ff <= 127",
+      "not firefox <= 127",
+      "not safari <= 17.5"
+    ]
+  }

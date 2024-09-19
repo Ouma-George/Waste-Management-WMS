@@ -1,0 +1,7 @@
+file 'C:\Users\User\PLP ACADEMY\End of Program Project\WMSA\public\assets\videos\water.mp4'
+file 'C:\Users\User\PLP ACADEMY\End of Program Project\WMSA\public\assets\videos\trees.mp4'
+file 'C:\Users\User\PLP ACADEMY\End of Program Project\WMSA\public\assets\videos\lightning.mp4'
+file 'C:\Users\User\PLP ACADEMY\End of Program Project\WMSA\public\assets\videos\forest.mp4'
+file 'C:\Users\User\PLP ACADEMY\End of Program Project\WMSA\public\assets\videos\co2.mp4'
+
+

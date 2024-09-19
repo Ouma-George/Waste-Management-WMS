@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Waste Management System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        /* Form Styles */
+        #enquiry-form {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1d1f8a;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #enquiry-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #enquiry-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #enquiry-form input,
+        #enquiry-form select,
+        #enquiry-form textarea {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        #enquiry-form input[type="email"],
+        #enquiry-form input[type="tel"] {
+            height: 40px;
+        }
+
+        #enquiry-form textarea {
+            height: 100px;
+        }
+
+        #enquiry-form button[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #enquiry-form button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="enquiry-form">
+        <h2>INTERESTED IN OUR SERVICE FOR YOUR ENTERPRISE?</h2>
+        <label for="region">What region are you in?</label>
+        <select id="region" name="region" required>
+            <option value="">Select a region</option>
+            <option value="West Africa">West Africa</option>
+            <option value="North Africa">North Africa</option>
+            <option value="East Africa">
+                East Africa
+            </option>
+            <option value="Southern Africa">Southern Africa</option>
+            <option value="Central Africa">Central Africa</option>
+            <option value="Other">Other</option>
+        </select>
+        <br /><br />
+        <label for="province-city">What Provinve or City are you in?</label>
+        <input type="text" id="province-city" name="province-city" required />
+        <br /><br />
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required />
+        <br /><br />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required />
+        <br /><br />
+        <label for="company-name">Company Name</label>
+        <input type="text" id="company-name" name="company-name" />
+        <br /><br />
+        <label for="interested-in">I Am interested in</label>
+        <select id="interested-in" name="interested-in" multiple>
+            <option value="Waste Administration Reporting and Management">
+                Waste Administration Reporting and Management
+            </option>
+            <option value="Consultancy Services">Consultancy Services</option>
+            <option value="Training">Training</option>
+            <option value="Waste Brokering">Waste Brokering</option>
+            <option value="Site Services">Site Services</option>
+            <option value="Commercial Waste Collection">
+                Commercial Waste Collection
+            </option>
+            <option value="Recycling">Recycling</option>
+        </select>
+        <br /><br />
+        <label for="email-address">Email Address</label>
+        <input type="email" id="email-address" name="email-address" required />
+        <br /><br />
+        <label for="contact-number">Contact Number</label>
+        <input type="tel" id="contact-number" name="contact-number" required />
+        <br /><br />
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <button type="submit">Submit Enquiry</button>
+    </form>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "waste-management-system",
+  "version": "1.0.0",
+  "description": "A project to develop a smart application to manage waste",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ouma-George"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "restful",
+    "mysql",
+    "orm"
+  ],
+  "author": "George Ouma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "path": "^0.12.7"
+  }
+}
